@@ -1,0 +1,80 @@
+body
+{
+	margin: 0;
+}
+div
+{
+	margin: 0;
+}
+a{
+	color: #FFFFFF;
+}
+
+a:hover
+{
+	color: #CCFFCC;
+}
+p
+{
+	display: block;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-style: normal;
+	font-size: 18px;
+}
+#footer
+{
+	display: block;
+	background-color: #4462af;
+	color: #aaeeff;
+	padding: 1px;
+	text-align: center;
+	
+}
+.container
+{
+	background-color: #6B9A83;	
+}
+#c1
+{
+	display: flex;
+	justify-content:space-between;
+	background-color: #C7E390;
+	padding: 2px;		
+}
+#c2
+{
+	display:flex;
+	justify-content:space-around;
+	align-content:space-around;
+	flex-wrap: wrap;
+	align-items: center;
+	background-color: #98C970;
+	padding: 2px;
+	height: 250px;
+}
+.head
+{
+	height: 50px;
+	width: 170px;
+	background-color: #E8B811;
+}
+#c1_login
+{
+	height: 50px;
+	width: 150px;
+	background-color: #EF9033;
+}
+
+.block
+{
+	height: 70px;
+	background-color: #30F483;
+	width: 360px;
+	margin: 5px;
+	flex-grow: 1;
+	
+}
